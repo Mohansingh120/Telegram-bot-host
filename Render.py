@@ -90,11 +90,11 @@ def scan_content_for_risk(content):
     return False, None
 
 # --- Configuration ---
-TOKEN = '8329796864:AAFfQxQHUXQ6W7BJoz82pEudpfvvuZGuAto' # Apna Token Check karein
-OWNER_ID = 7692672287
-ADMIN_ID = 7692672287
-YOUR_USERNAME = 'MS_HAC4KER'
-UPDATE_CHANNEL = 'https://t.me/PHANTOM_CODERS'
+TOKEN = 'BOT_TOKEN' # Apna Token Check karein
+OWNER_ID = OWNER_ID
+ADMIN_ID = ADMIN_ID
+YOUR_USERNAME = 'YOUR_USERNAME'
+UPDATE_CHANNEL = UPDATE_CHANNEL'
 
 # Folder setup
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
@@ -102,7 +102,7 @@ UPLOAD_BOTS_DIR = os.path.join(BASE_DIR, 'upload_bots')
 os.makedirs(UPLOAD_BOTS_DIR, exist_ok=True)
 
 # 👇 Apna MongoDB URL yahan daalein 👇
-MONGO_URL = "mongodb+srv://mohans78425_db_user:mohans78425_db_user@cluster0.fvfjtik.mongodb.net/?appName=Cluster0"
+MONGO_URL = "MONGO_URL"
 
 # --- MongoDB Connection Setup (Fixed for Termux) ---
 try:
